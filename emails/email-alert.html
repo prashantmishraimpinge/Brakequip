@@ -1,0 +1,57 @@
+<html><head>
+        <style>
+            a,
+            a:link,
+            a:visited,
+            a:active {
+                color: #CCCCCC;
+                text-decoration: none;  
+            }
+            a:hover {
+                color: #f2f2f2;
+                text-decoration: underline;   
+            }      
+        </style>
+    </head>
+    <body style="margin: 0; background-color: #E9E9E9">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td height="30" style="background:#505050; border-bottom:3px solid #ba1e27;text-align:center;font-family:arial;padding:12px;"><span style="color:#fff;font-size:32px; font-weight:bold;">Excess usage notification</span></td>
+    </tr>
+    <tr>
+        <td align="center" valign="top">
+            <table border="0" cellspacing="0" cellpadding="0" style="width:65%; min-width: 350px; background-color:#FFFFFF; padding: 0;font-family: arial; font-size: 14px; line-height:130%;">
+                <tbody><tr valign="top">
+                    <td colspan="2" style="padding:0 30px; margin-top: 30px;">
+                      <p style="margin:30px 0px">
+                        <img src="$brakeQuipLogo" alt="BrakeQuip Australia" width="225"></p>
+                        <p>$admin,<br>An account has tried to view more than their daily limit of hose positions.
+			<br><br><strong>Business Name: </strong>
+			 $name <br><br>
+			<strong>Login ID: </strong> $user <br>			
+			<br><hr><br>
+			<strong>Latest hose position they tried to view:</strong><br> $fullhosepath<br><br>
+			<strong>BQ Number of hose they were trying to view: </strong><br> $hosename<br><br>
+			<strong>Time: </strong> $time<br><br>
+			
+			<hr><br><br>
+			<strong>Hose View Data for Today:</strong>
+			<br><br>
+			$fullhosetoday
+                  </p></td>
+                </tr>
+                <tr>
+                    <td colspan="2" valign="top" style="padding:35px; background:#505050; color: #FFFFFF;">
+                        BrakeQuip Australia<br>
+                        PO Box 279<br>
+                        Braeside VIC 3195</td>
+                        
+                    
+                </tr>
+          </tbody></table>
+        </td>
+    </tr>
+</tbody></table>
+    
+
+</body></html>

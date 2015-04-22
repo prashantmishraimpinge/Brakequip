@@ -1,0 +1,3 @@
+<p>We are pleased to offer you access to our comprehensive library of brake hose images. Use of BrakeQuip images is restricted to assisting you enhance your brake hose business. We grant you permission to use any of these in your brochures, website, advertising, sign writing, business cards, letterheads etc. These images are NOT for distribution to anybody not being employed by you for the purposes as stated above. We ask your co-operation to ensure these images stay with-in the BrakeQuip group of hose manufacturers.</p>
+
+<p>If you agree to these terms please click 'I Agree'</p>

@@ -1,0 +1,6 @@
+<?php echo $_POST['name'] ?> from account <?php echo $_SESSION['user'] ?> has report host inaccurancy with the following part:
+<?php echo $_POST['part'] ?>
+
+Reason
+------------------------------
+<?php echo $_POST['reason'] ?>

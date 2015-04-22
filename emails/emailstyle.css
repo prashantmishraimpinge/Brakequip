@@ -1,0 +1,104 @@
+body, td {
+	font-family:arial;
+	font-size:13px;
+	color:#000;
+	line-height:130%;
+}
+
+.accordion {
+    color: #000000;
+    margin: 0;
+	padding:0;
+	width:690px;
+}
+.accordion span {
+    display: none
+}
+.tabs {
+    background-color: #FFFFFF;
+    overflow: hidden;
+	margin:0 0 0 0;
+	padding:0;	
+}
+.tabs dl dd a {
+    background-color:none;
+    border: 0;
+    border-color:#ccc;border-bottom-color:#aaa;
+    display: block;
+    font-size: 18px;
+	margin-left:-40px;
+    text-decoration: none;
+	color:#f24537;
+	-moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+	width:690px;
+
+}
+.tabs dl dd div {
+    background-color:transparent;
+    height: 0;
+	margin-left:-40px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.tabs dl dd div p {
+    color: #444444;
+}
+.tabs dl dd a:hover {
+}
+#tab1:target ~ .tabs .tab1 dd div {
+    height: 100%;
+	width:690px;
+
+}
+#tab2:target ~ .tabs .tab2 dd div {
+    height: 345px;
+}
+#tab3:target ~ .tabs .tab3 dd div {
+    height: 235px;
+}
+#tab4:target ~ .tabs .tab4 dd div {
+    height: 235px;
+}
+#tab1:target ~ .tabs .tab1 dd a,
+#tab2:target ~ .tabs .tab2 dd a,
+#tab3:target ~ .tabs .tab3 dd a,
+#tab4:target ~ .tabs .tab4 dd a {
+}
+.logmein {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:8px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #810e05;
+	margin-left:25%;
+}.logmein:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+	background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+	background-color:#c62d1f;
+}.logmein:active {
+	position:relative;
+	top:1px;
+}

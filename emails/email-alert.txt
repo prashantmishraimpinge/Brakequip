@@ -1,0 +1,13 @@
+$admin,
+
+An account has tried to view more than their daily limit of hose positions.
+Business Name: $user 
+Login ID: $name			
+
+Latest hose position they tried to view: 
+$fullhosepath
+
+BQ Number of hose they were trying to view: 
+$hosename
+
+Time: $time

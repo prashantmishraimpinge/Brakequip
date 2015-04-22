@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family:arial;
+                font-size:12px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <img src="http://www.brakequip.com.au/logo.gif" /><br />
+
+        <p><?php echo $_POST['name'] ?></b> from account <b><?php echo $_SESSION['user'] ?></b> has suggested a vehicle for research.</p>
+
+        <p>They requested a <b><?php echo $_POST['make'].' '.$_POST['model'].' '.$_POST['submodel'].' '.$_POST['year'] ?></b> model.
+
+        <p><b>Other details</b><br />
+        <?php echo nl2br($_POST['other']) ?></p>
+    </body>
+</html>
+

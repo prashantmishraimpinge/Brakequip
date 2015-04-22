@@ -1,0 +1,9 @@
+$nick,
+
+You have requested an access link for the BrakeQuip Online Applications page.
+Please enter the link below into your browser to securely login.
+
+$loginUrl
+
+Warm Regards,
+BrakeQuip Australia

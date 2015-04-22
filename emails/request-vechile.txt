@@ -1,0 +1,7 @@
+<?php echo $_POST['name'] ?> from account <?php echo $_SESSION['user'] ?> has suggested a vehicle for research.
+
+They requested a <?php echo $_POST['make'].' '.$_POST['model'].' '.$_POST['submodel'].' '.$_POST['year'] ?> model.
+
+Other details
+-----------------------------
+<?php echo $_POST['other'] ?>
